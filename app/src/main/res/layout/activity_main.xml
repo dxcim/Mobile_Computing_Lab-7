@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/activity_main">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="300dp"
+        android:alpha="0.75"
+        android:background="#DEB887"
+        android:backgroundTint="#DEB887"
+        android:gravity="center"
+        android:outlineAmbientShadowColor="#DEB887"
+        android:outlineSpotShadowColor="#DEB887"
+        android:shadowColor="#000000"
+        android:text="Change Background"
+        android:textColor="#FF5252"
+        app:strokeColor="#DEB887" />
+</RelativeLayout>
